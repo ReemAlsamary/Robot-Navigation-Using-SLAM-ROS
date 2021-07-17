@@ -14,6 +14,8 @@
 - $ sudo apt-get install ros-melodic-dynamixel-sdk
 - $ sudo apt-get install ros-melodic-turtlebot3-msgs
 - $ sudo apt-get install ros-melodic-turtlebot3
+<img width="578" alt="Screen Shot 1442-12-07 at 6 24 20 PM" src="https://user-images.githubusercontent.com/86277104/126044810-cb995e55-7d93-4342-8352-eff234451cc2.png">
+
 
 ---
 
