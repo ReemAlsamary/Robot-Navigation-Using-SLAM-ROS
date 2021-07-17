@@ -19,10 +19,10 @@
 
 3. Set TurtleBot3 Model Name, choose the Trurtlebot you want to work with:
 
-- In case of TurtleBot3 Burger
+In case of TurtleBot3 Burger
 
-echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
+- echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
 
-- In case of TurtleBot3 Waffle Pi
+In case of TurtleBot3 Waffle Pi
 
-[^1] echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc
+- echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc
