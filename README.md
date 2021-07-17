@@ -11,7 +11,7 @@
 ---
 
 2. Install TurtleBot3 Packages by using the following commands:
-- $ sudo apt-get install ros-melodic-dynamixel-sdk
-- $ sudo apt-get install ros-melodic-turtlebot3-msgs
-- $ sudo apt-get install ros-melodic-turtlebot3
+> $ sudo apt-get install ros-melodic-dynamixel-sdk
+> $ sudo apt-get install ros-melodic-turtlebot3-msgs
+> $ sudo apt-get install ros-melodic-turtlebot3
 
