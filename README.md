@@ -11,7 +11,18 @@
 ---
 
 2. Install TurtleBot3 Packages by using the following commands:
-> $ sudo apt-get install ros-melodic-dynamixel-sdk
-> $ sudo apt-get install ros-melodic-turtlebot3-msgs
-> $ sudo apt-get install ros-melodic-turtlebot3
+- $ sudo apt-get install ros-melodic-dynamixel-sdk
+- $ sudo apt-get install ros-melodic-turtlebot3-msgs
+- $ sudo apt-get install ros-melodic-turtlebot3
 
+---
+
+3. Set TurtleBot3 Model Name, choose the Trurtlebot you want to work with:
+
+- In case of TurtleBot3 Burger
+
+echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
+
+- In case of TurtleBot3 Waffle Pi
+
+[^1] echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc
