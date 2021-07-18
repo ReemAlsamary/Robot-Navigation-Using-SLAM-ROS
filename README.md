@@ -19,12 +19,12 @@
 
 ---
 
-3. Set TurtleBot3 Model Name, choose the Trurtlebot you want to work with:
+3. Install Simulation to run the Trurtlebot in an environment, by using the following codes in the terminal to install Simulation packages:
+```
+{$ cd ~/catkin_ws/src/
+$ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+$ cd ~/catkin_ws && catkin_make
+}
+```
+<img width="925" alt="Screen Shot 1442-12-07 at 6 38 13 PM" src="https://user-images.githubusercontent.com/86277104/126052548-b8474ecc-0a95-492a-8b0c-34da5d714952.png">
 
-In case of TurtleBot3 Burger
-
-- echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
-
-In case of TurtleBot3 Waffle Pi
-
-- echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc
