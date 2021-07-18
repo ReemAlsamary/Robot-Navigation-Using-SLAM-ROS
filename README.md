@@ -87,7 +87,7 @@ $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 <img width="978" alt="Screen Shot 1442-12-08 at 3 07 58 AM" src="https://user-images.githubusercontent.com/86277104/126053377-3017f0d5-4190-41c4-b381-4bca0dcdae04.png">
 
 
-**Now in the terminal we can control the robot using the W,A,S,D,X keybored keys to roam around the gazebo simulated map.**
+- **Now in the terminal we can control the robot using the W,A,S,D,X keybored keys to roam around the gazebo simulated map.**
 
 ---
 
