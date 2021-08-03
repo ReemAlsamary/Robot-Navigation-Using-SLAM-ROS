@@ -59,6 +59,8 @@ $ roslaunch turtlebot3_gazebo turtlebot3_house.launch
 <img width="969" alt="Screen Shot 1442-12-08 at 2 42 12 AM" src="https://user-images.githubusercontent.com/86277104/126052864-dd88a364-8b87-4329-8655-3b38ff7ca4b8.png">
 
 - Then we will choose one of the previous robot which is waffle and we will control it using the keybored keys W: Forward, A: Left, S:Stop, D: Right, X:Backward.  And run the previous command for waffle robot. Then open new terminal and run the following command:
+
+
 ``` $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch ```
 
 ---
