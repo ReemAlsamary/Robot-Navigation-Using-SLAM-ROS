@@ -2,15 +2,14 @@
 - This task is about controling the TurtleBot3 Robots (ROS standard platform robot) with the SLAM concept (simultaneous localization and mapping) to create a map using Lidar sensor and save the map.
 
 ## **Task(2) steps:**
----
 
-1. Create a new project using ROS melodic at https://app.theconstructsim.com/#/MyRosjects.
+### 1. Create a new project using ROS melodic at https://app.theconstructsim.com/#/MyRosjects.
 
 <img width="635" alt="Screen Shot 1442-12-07 at 6 20 52 PM" src="https://user-images.githubusercontent.com/86277104/126044278-1de6852b-d4a4-4cb1-a4d0-95c216c5ab62.png">
 
 ---
 
-2. Install TurtleBot3 Packages by using the following commands:
+### 2. Install TurtleBot3 Packages by using the following commands:
 ```
  $ sudo apt-get install ros-melodic-dynamixel-sdk
  $ sudo apt-get install ros-melodic-turtlebot3-msgs
@@ -33,7 +32,7 @@ $ cd ~/catkin_ws && catkin_make
 
 ---
 
-4. Launch Simulation World.There are 3 simulation environments are set for TurtleBot3 and I will lunch them one by one for testing.
+### 4. Launch Simulation World.There are 3 simulation environments are set for TurtleBot3 and I will lunch them one by one for testing.
 
 - Empty world with a robot called "burger"
 ```
@@ -61,7 +60,7 @@ $ roslaunch turtlebot3_gazebo turtlebot3_house.launch
 
 ---
 
-5. SLAM Simulation. In a new terminal Run these commands in the terminal to launch the simulation world:
+### 5. SLAM Simulation. In a new terminal Run these commands in the terminal to launch the simulation world:
 ```
 $ export TURTLEBOT3_MODEL=waffle 
 $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
@@ -70,7 +69,7 @@ $ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
 ---
 
-6. Run the SLAM Node and see the generated map by the Robot, by using the following command in a new terminal:
+### 6. Run the SLAM Node and see the generated map by the Robot, by using the following command in a new terminal:
 ```
 $ export TURTLEBOT3_MODEL=waffle  
 $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
@@ -79,7 +78,7 @@ $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 
 ---
 
-7. Run Teleoperation Node to be able to interact and control the robot, by using the following command in a new terminal:
+### 7. Run Teleoperation Node to be able to interact and control the robot, by using the following command in a new terminal:
 ```
 $ export TURTLEBOT3_MODEL=waffle 
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
@@ -91,7 +90,7 @@ $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
 ---
 
-8. Save a Map. After the map is created successfully in Rviz, open new terminal and save it using the command below:
+### 8. Save a Map. After the map is created successfully in Rviz, open new terminal and save it using the command below:
 ```
 $ rosrun map_server map_saver -f ~/map
 ```
